@@ -1,0 +1,92 @@
+/*Colors and fonts*/
+
+body{
+	background: #735D78;
+	color: #D1B3C4;
+	font-family: Mukta;
+	font-size: 16px;
+}
+
+h1{
+	color: #8D7593;
+	font-size: 23px;
+	font-family: Playfair Display, serif;
+}
+
+h2{
+	color: #B392AC;
+	font-size: 18px;
+	font-family: Helvetica;
+}
+
+a{
+	text-decoration: none;
+	color: #5A475F;
+	font-weight: bolder;
+}
+
+a:hover {
+	color: #e8c2ca;
+}
+
+/* Custom design with class*/
+
+.container{
+	width: 750px;
+	margin: 40px auto;
+}
+
+@media (max-width:760px){
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width:500px){
+	.container{
+		width: 400px;
+	}
+}
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.btn-blue{
+	background-color: #5A475F;
+	color: white;
+	padding: 3px 10px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover{
+	background-color: white;
+	color: #5A475F;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 30px;
+	color: rgb(230, 230, 230);
+}
+
+.list-inline i:hover{
+	color: #5A475F;
+}
